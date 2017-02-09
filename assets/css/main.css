@@ -70,6 +70,20 @@
 .center {
 	text-align: center;
 }
+
+.github-icons img {
+	height: 100px;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-bottom: 80px;
+}
+
+.github-icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 50px;
+}
 /* Grid */
 
 	.row {
