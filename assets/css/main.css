@@ -2406,17 +2406,17 @@
 				width: 100%;
 			}
 
-
+/*
 			.image.phone .inner {
 				position: relative;
-			}
+			}*/
 
-				.image.phone .inner:before, .image.phone .inner:after {
+				/*.image.phone .inner:before, .image.phone .inner:after {
 					content: '';
 					position: absolute;
 					left: 50%;
-				}
-
+				}*/
+/*
 				.image.phone .inner:before {
 					top: -1.375em;
 					margin-left: -1em;
@@ -2469,7 +2469,7 @@
 
 			.image.phone .inner:after {
 				border-color: #e6e6e6;
-			}
+			}*/
 
 /* List */
 
