@@ -65,6 +65,9 @@
 .flex {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
 }
 
 .center {
@@ -86,6 +89,7 @@
 .github-icons {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
 	margin-top: 50px;
 }
@@ -2396,7 +2400,7 @@
 			box-shadow: none;
 			border-radius: 0;
 			margin: 0 0 3em 0;
-			width: 13em;
+			width: 80em;
 		}
 
 			.image.phone img {
@@ -2404,6 +2408,7 @@
 				display: block;
 				position: relative;
 				width: 100%;
+				/*height: 500px;*/
 			}
 
 /*
@@ -3657,7 +3662,7 @@
 /* Header */
 
 	#header {
-		background-color: #4696e5;
+		/*background-color: #4696e5;*/
 		color: #d0e4f8;
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
@@ -3672,11 +3677,10 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
-		background-position: top left, center center;
-		background-attachment: fixed, fixed;
-		background-size: auto, cover;
-		height: 100vh;
+		background-image: url("images/plane.jpg")
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
 		min-height: 35em;
 	}
 
@@ -3927,10 +3931,10 @@
 				opacity: 1;
 			}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 5080px) {
 
 			#header {
-				background-image: url("images/overlay.png"), url("images/pattern-size2.svg");
+				background-image: url("images/plane.jpg")
 			}
 
 		}
@@ -3974,7 +3978,7 @@
 		@media screen and (max-width: 736px) {
 
 			#header {
-				background-image: url("images/overlay.png"), url("images/pattern-size3.svg");
+				background-image: url("images/plane.jpg");
 			}
 
 				#header h1 {
